@@ -1,0 +1,90 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> 3form </title>  
+<style>   
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: white;  
+}  
+button {   
+       background-color: #4CAF50;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 1px solid #f1f1f1;   
+    } 
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+} 
+
+input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid green;   
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+        
+     
+ .container {   
+        padding: 25px;   
+        background-color: lightblue;  
+    }   
+
+</style>   
+</head>    
+<body>    
+    <a href="1form.html"> Atpakaļ uz sākumlapu </a> 
+ <h1 > Publiskā datubāze</h1>  
+    <form>      
+        <label>Šajā datubāzē tu vari apskatīt pieejamās vielas un aprīkojumu</label>  
+        <div>
+            <form1>
+                <input type="text" placeholder="Search.." name="search">
+                <a style="margin: 1px 0px; " href="#" >Rādīt visu</a>
+                <a style="margin: 1px 0px; " href="#" >Rādīt vielas</a>
+                <a style="margin: 1px 0px; " href="#" >Rādīt aprīkojumu</a>
+            </form1>
+        </div>
+        <div class="container">   
+            <table id = "tb1" border = "1">
+                <tr>
+                    <th>apakstips</th>
+                    <th>id</th>
+                    <th>komentari</th>
+                    <th>nosaukums</th>
+                    <th>skaits</th>
+                    <th>tips</th>
+                </tr>
+            </table>
+
+    </div> 
+    </form>     
+</body>     
+</html>  
